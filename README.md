@@ -8,7 +8,7 @@ Around 350 values, removed players who played less than 20 games.
 Updated version with all the teams, not just 50 players, little convoluded but the highest win rate team Utah at 0.722, is at the top while the bottom team is Houston with 0.236. 
 Some loose numbers with players who were traded, decided to give their stats to the team they were traded to.
 
- Pearson's R to be: 0.223486.
+ Pearson's R: 0.223486.
 
 Makes sense, some players shined on the bad teams and vice versa.
 The Center position had some of the highest True shooting percentages on the teams.
