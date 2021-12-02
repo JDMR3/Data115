@@ -14,7 +14,7 @@ The Center position had some of the highest True shooting percentages on the tea
 
 Josh Hall of The Oklahoma City Thunder had the lowest true shooting % with 0.363 played exaclty 20 games.
 
-Highest Trus Shooting % was DeAndre Jordan of The Brooklyn Nets, with 0.736
+Highest True Shooting% value was DeAndre Jordan of The Brooklyn Nets, with 0.736
 
 -----------------------------------------------------------------------------------------------------------------------------------
 Old data info:
