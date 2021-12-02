@@ -4,6 +4,8 @@ For DATA 115, WSU Fall Semester 2021
 -------------------------------------------------------------------------------------------------------------------------------------
 ![000007](https://user-images.githubusercontent.com/91152880/144478800-318a665b-281c-4d7c-88bf-d201c72a5d75.png)
 -------------------------------------------------------------------------------------------------------------------------------------
+2020-2021 NBA Season
+----------------------------------------------------------------------------------------------------------------------------------------
 Around 350 values, removed players who played less than 20 games. 
 Updated version with all the teams, not just 50 players, little convoluded but the highest win rate team Utah at 0.722, is at the top while the bottom team is Houston with 0.236. 
 Some loose numbers with players who were traded, decided to give their stats to the team they were traded to.
