@@ -4,22 +4,29 @@ For DATA 115, WSU Fall Semester 2021
 Motivation for the Project
 ---------------------------------------------------------------------------------------------------------------------------------
 I set out to answer if True Shooting affected Winning percentages, I recently started looking into basketball statistics as I've been watching the NBA but not really paid attention to the stats outside of the major ones (points, assists and rebounds), 
+---------------------------------------------------------------------------------------------------------------------------------
+2020-2021 NBA Season, Data Process
+----------------------------------------------------------------------------------------------------------------------------------
+Gathered my data from https://www.basketball-reference.com/ 350 player data set for the 2020-21 NBA season's most games played people organied by team, focused on the True Shooting aspect of the statistics and team they were played on, removed players who played less than 20 games removed around 300 people because of this. Those players were removed to reduce the amount skewness.
+Some loose numbers with players who were traded, decided to remove the data as I could only export around 600 values from Basketball Reference.
+Added a Win Rate column that was not in the data set, to the data by standard win / loss calculation, because the data was organized by team and games played, it was just a matter of calculating the win rate for the 30 teams.
 
+Updated version with all the teams, originally had data on just 50 players, did not have enough data points the Correlation was around 0.5 that did not seem right so recreated the data with the 300 different players.
+
+Highest win rate team Utah at 0.722, is at the top while the bottom team is Houston with 0.236. 
+
+Visualization:
 ----------------------------------------------------------------------------------------------------------------------------------![000092 (1)](https://user-images.githubusercontent.com/91152880/144525428-38c892d7-a73d-402c-8a0c-3a2b4cafa84c.png)
 
 ----------------------------------------------------------------------------------------------------------------------------------
-2020-2021 NBA Season
-----------------------------------------------------------------------------------------------------------------------------------
-Around 350 player data set for the 2020-21 NBA season's most games played people organied by team, focused on the True Shooting aspect of the statistics and team they were played on, removed players who played less than 20 games removed around 300 people because of this. Those players were removed to reduce the amount skewness,  
-Updated version with all the teams, not just 50 players, little convoluded but the highest win rate team Utah at 0.722, is at the top while the bottom team is Houston with 0.236. 
-Some loose numbers with players who were traded, decided to remove the data as I could only export around 600 values from Basketball Reference.
 
 -------------------------------------------------------------------------------------------------------------------------------
 Analysis: 5 Number Summary, Pearson's r
 -------------------------------------------------------------------------------------------------------------------------------
 Pearson's R: 0.223486.
+-------------------------------------------------------------------------------------------------------------------------------
 Makes sense, some players shined on the bad teams and vice versa. The Center position had some of the highest True shooting percentages on the teams.
---------------------------
+
 |Quartiles|True Shooting |Win Rate |
 |---------|--------------|---------|
 |MIN|	  0.363	           |	0.236  |
