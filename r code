@@ -1,0 +1,19 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+```{r}
+PDS <- read.csv(("PDS.csv"))
+PDS2 <- read.csv("PDS22.csv")
+plot(PDS$Win..,PDS$TS, main ="True Shooting Vs. Wins",
+     xlab = "True Shooting", ylab= "Win %", pch = 20,)
+plot(PDS2$TS,PDS2$WR, main ="True Shooting Vs. Wins",
+     xlab = "True Shooting", ylab= "Win %", pch = 20,)
+ggplot(PDS2, aes(x = WR, y = TS, col = Team.,)) +
+  ggtitle("True Shooting Vs. Win Rate") +
+  geom_point() +
+  geom_smooth(method = lm)
+p <- cor(PDS2$WR, PDS2$TS, method = c("pearson"))
+print(p)
+```
