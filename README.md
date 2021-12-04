@@ -8,6 +8,7 @@ I set out to answer if True Shooting affected Winning percentages, I recently st
 ----------------------------------------------------------------------------------------------------------------------------------
 Gathered my data from https://www.basketball-reference.com/ 350 player data set for the 2020-21 NBA season's most games played people organied by team, focused on the True Shooting aspect of the statistics and team they were played on, removed players who played less than 20 games removed around 300 people because of this. Those players were removed to reduce the amount skewness.
 Some loose numbers with players who were traded, decided to remove the data as I could only export around 600 values from Basketball Reference.
+
 Added a Win Rate column that was not in the data set, to the data by standard win / loss calculation, because the data was organized by team and games played, it was just a matter of calculating the win rate for the 30 teams.
 
 Updated version with all the teams, originally had data on just 50 players, did not have enough data points the Correlation was around 0.5 that did not seem right so recreated the data with the 300 different players.
