@@ -40,6 +40,7 @@ Some players shined on the bad teams and vice versa.
 ![image](https://user-images.githubusercontent.com/91152880/144703315-766af838-15f6-442f-a192-7904ab8a55bb.png)
 -----------------
 Box and Whisker chart of every team, quite a few outliers (red stars).
+Atlanta, Brooklyn, Wash and Milwakee all had higher than avearge TS and they made the playoffs. Golden state also had a high True Shooting percentage however they did not make the playoffs.
 Some teams have really efficient people playing for them, while others not so much, causes an imbalance but the higher win rate teams have a good balance. 
 The Outliers could be caused by the amount of minutes played or shots that are taken as not everyone can have the ball,
 
