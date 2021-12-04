@@ -7,7 +7,7 @@ I set out to answer if True Shooting affected Winning percentages, I recently st
 2020-2021 NBA Season, Data Process
 ----------------------------------------------------------------------------------------------------------------------------------
 Gathered my data from https://www.basketball-reference.com/ 
-Oringinally a 540 player data set from the NBA's 2020-21 season, decided to organize the data by most games played by the players, and by team, focused on the True Shooting column of the statistics removed all the data after True shooting percentage. Decided to remove players who played less than 20 games, resulted in the removal ofaround 300 people because of this. Those players were removed to reduce the amount skewness.
+Originally a 540 player data set from the NBA's 2020-21 season, decided to organize the data by most games played by the players, and by team, focused on the True Shooting column of the statistics and removed all the data after True shooting percentage. Decided to remove players who played less than 20 games, resulting in the removal of around 300 people because of this. Those players were removed to reduce the amount of skewness.
 
 Some loose numbers with players who were traded, decided to remove the data as I could only export around 600 values from Basketball Reference.
 
@@ -22,11 +22,12 @@ Analysis: 5 Number Summary, Pearson's r
 -------------------------------------------------------------------------------------------------------------------------------
 Pearson's R: 0.223486.
 -------------------------------------------------------------------------------------------------------------------------------
-Pearson's correlation coefficient was used to test the association of the 2 columns, because the amount was between 0.1 and 0.3, it was a postive correlation but it was a there was a small strength of association. 
+Pearson's correlation coefficient was used to test the association of the 2 columns, because the amount was between 0.1 and 0.3, it was a positive correlation but there was a small strength of association. 
 
 Makes sense because it takes more than offence to win in the game of basketball, as defence is just as important.
 
 Some players shined on the bad teams and vice versa.
+
 
 |Quartiles|True Shooting |
 |---------|--------------|
@@ -40,11 +41,11 @@ Some players shined on the bad teams and vice versa.
 ![image](https://user-images.githubusercontent.com/91152880/144703315-766af838-15f6-442f-a192-7904ab8a55bb.png)
 -----------------
 Box and Whisker chart of every team, quite a few outliers (red stars).
-Atlanta, Brooklyn, Wash and Milwakee all had higher than avearge TS and they made the playoffs. Golden state also had a high True Shooting percentage however they did not make the playoffs.
+Atlanta, Brooklyn, Wash and Milwakee all had higher than average TS and they made the playoffs. Golden state also had a high True Shooting percentage however they did not make the playoffs.
 Some teams have really efficient people playing for them, while others not so much, causes an imbalance but the higher win rate teams have a good balance. 
 The Outliers could be caused by the amount of minutes played or shots that are taken as not everyone can have the ball,
 
-Josh Hall of The Oklahoma City Thunder had the lowest true shooting % with 0.363 played exaclty 20 games, and OKC had the second worst record in the Western Conference at 0.306.
+Josh Hall of The Oklahoma City Thunder had the lowest true shooting % with 0.363 played exactly 20 games, and OKC had the second worst record in the Western Conference at 0.306.
 
 Highest True Shooting% value was DeAndre Jordan of The Brooklyn Nets, with 0.736, and the Brooklyn Nets were second in the Eastern Conference.
 
