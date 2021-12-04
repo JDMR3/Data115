@@ -22,11 +22,11 @@ Makes sense, some players shined on the bad teams and vice versa. The Center pos
 --------------------------
 |   | True Shooting |	Win Rate |
 |--------------|-----------|
-|MIN|	0.363	   |	0.236    |
-|1st Q|	0.533	 |	0.431    |
-|MEDIAN|	0.567 |	 0.542    |
-|3rd Q|	0.601		|0.619    |
-|MAX| 0.736		 |  0.722    |
+|MIN|	0.363	   	0.236    |
+|1st Q|	0.533	 	0.431    |
+|MEDIAN|	0.567 	 0.542    |
+|3rd Q|	0.601		0.619    |
+|MAX| 0.736		 0.722    |
 |--------------------------|
 
 Josh Hall of The Oklahoma City Thunder had the lowest true shooting % with 0.363 played exaclty 20 games, and OKC had the second worst record in the Western Conference at 0.306.
