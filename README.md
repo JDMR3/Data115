@@ -28,13 +28,13 @@ Makes sense because it takes more than offence to win in the game of basketball,
 
 Some players shined on the bad teams and vice versa.
 
-|Quartiles|True Shooting |Win Rate |
-|---------|--------------|---------|
-|MIN|	  0.363	           |	0.236  |
-|1st Q|	0.533            |  0.431  |
-|MEDIAN|	0.567          |0.542    |
-|3rd Q|	0.601		         |0.619    |
-|MAX| 0.736		           | 0.722   |
+|Quartiles|True Shooting |
+|---------|--------------|
+|MIN|	  0.363	           |
+|1st Q|	0.533            |
+|MEDIAN|	0.567          |
+|3rd Q|	0.601		         |
+|MAX| 0.736		           |
 
 --------------
 ![image](https://user-images.githubusercontent.com/91152880/144703315-766af838-15f6-442f-a192-7904ab8a55bb.png)
