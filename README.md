@@ -37,8 +37,11 @@ Some players shined on the bad teams and vice versa.
 |MAX| 0.736		           | 0.722   |
 
 --------------
-![000019](https://user-images.githubusercontent.com/91152880/144702646-fcac6df4-a5ed-4609-8504-d2efd185d471.png)
+![image](https://user-images.githubusercontent.com/91152880/144703315-766af838-15f6-442f-a192-7904ab8a55bb.png)
 -----------------
+Box and Whisker chart of every team, quite a few outliers (red stars).
+Some teams have really efficient people playing for them, while others not so much, causes an imbalance but the higher win rate teams have a good balance. 
+The Outliers could be caused by the amount of minutes played or shots that are taken as not everyone can have the ball,
 
 Josh Hall of The Oklahoma City Thunder had the lowest true shooting % with 0.363 played exaclty 20 games, and OKC had the second worst record in the Western Conference at 0.306.
 
@@ -50,9 +53,10 @@ The Center position had some of the highest True shooting percentages on teams.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 Old data info, not really relevent anymore as I only focused on 50 people
------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
 ![PDS](https://user-images.githubusercontent.com/91152880/142282949-3ecde435-e6b0-46e8-a922-771906083eff.jpeg)
------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+
 Scatterplot comparing True Shooting and Win percentage for the top 50 players, who played the most games in the 2020-2021 season.
------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
 I evaluated outliers for my win% variable as some players were traded mid season, I took the average for the teams that they played on. Also this data set was  organized based on the top 50 players and by the most amount of games played.
