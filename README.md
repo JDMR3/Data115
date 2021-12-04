@@ -20,7 +20,7 @@ Analysis: 5 Number Summary, Pearson's r
 Pearson's R: 0.223486.
 Makes sense, some players shined on the bad teams and vice versa. The Center position had some of the highest True shooting percentages on the teams.
 --------------------------
-|------|True Shooting |	Win Rate |
+|True Shooting |	Win Rate |
 |--------------|-----------|
 |MIN|	0.363	   	0.236    |
 |1st Q|	0.533	 	0.431    |
