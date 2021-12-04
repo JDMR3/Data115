@@ -8,12 +8,16 @@ PDS <- read.csv(("PDS.csv"))
 PDS2 <- read.csv("PDS22.csv")
 plot(PDS$Win..,PDS$TS, main ="True Shooting Vs. Wins",
      xlab = "True Shooting", ylab= "Win %", pch = 20,)
-plot(PDS2$TS,PDS2$WR, main ="True Shooting Vs. Wins",
-     xlab = "True Shooting", ylab= "Win %", pch = 20,)
-ggplot(PDS2, aes(x = WR, y = TS, col = Team.,)) +
+
+ggplot(PDS2, aes(x = TS, y = WR, col = Team.,)) +
   ggtitle("True Shooting Vs. Win Rate") +
-  geom_point() +
-  geom_smooth(method = lm)
+  geom_point() 
+
 p <- cor(PDS2$WR, PDS2$TS, method = c("pearson"))
 print(p)
+
+ggplot(PDS2, aes(x = TS, y = Team.,)) +
+  ggtitle("True Shooting Percentages by Team") +
+  geom_boxplot(outlier.colour = "red", outlier.shape = 8,
+               outlier.size =2) 
 ```
