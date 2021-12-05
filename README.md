@@ -15,7 +15,8 @@ Added a Win Rate column that was not in the data set, to the data by standard wi
 
 Updated version with all the teams, originally had data on just 50 players, did not have enough data points the Correlation was around 0.5 that did not seem right so recreated the data with the 300 different players.
 
-----------------------------------------------------------------------------------------------------------------------------------![000092 (1)](https://user-images.githubusercontent.com/91152880/144525428-38c892d7-a73d-402c-8a0c-3a2b4cafa84c.png)
+----------------------------------------------------------------------------------------------------------------------------------
+![000092 (1)](https://user-images.githubusercontent.com/91152880/144525428-38c892d7-a73d-402c-8a0c-3a2b4cafa84c.png)
 
 -------------------------------------------------------------------------------------------------------------------------------
 Analysis: 5 Number Summary, Pearson's r
