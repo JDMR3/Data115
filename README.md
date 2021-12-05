@@ -1,4 +1,4 @@
-# For DATA 115, WSU Fall Semester 2021
+# DATA 115, WSU Fall Semester 2021
 ---------------------------------------------------------------------------------------------------------------------------------
 Motivation for the Project
 ---------------------------------------------------------------------------------------------------------------------------------
@@ -26,7 +26,7 @@ Pearson's correlation coefficient was used to test the association of the 2 colu
 
 Makes sense because it takes more than offence to win in the game of basketball, as defence is just as important.
 
-Some players shined on the bad teams and vice versa.
+Efficient players shined on bad teams, and the least efficient shined on good ones.
 
 
 |Quartiles|True Shooting |
