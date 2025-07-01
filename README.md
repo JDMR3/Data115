@@ -2,7 +2,7 @@
 ---------------------------------------------------------------------------------------------------------------------------------
 Motivation for the Project
 ---------------------------------------------------------------------------------------------------------------------------------
-I set out to answer if True Shooting affected Winning percentages, I recently started looking into basketball statistics as I've been watching the NBA but not really paid attention to the stats outside of the major ones (points, assists and rebounds), 
+I set out to answer if "True Shooting" (measure of a shooting efficiency in field goals, 3 pointers, and free throws) affected Winning percentages, I recently started looking into basketball statistics as I've been watching the NBA but not really paid attention to the stats outside of the major ones (points, assists and rebounds), 
 
 2020-2021 NBA Season, Data Process
 ----------------------------------------------------------------------------------------------------------------------------------
